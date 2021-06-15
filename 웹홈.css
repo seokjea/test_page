@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+a{
+    text-decoration: none;
+}
+#container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header{                         /*첫번쨰줄 헤더부분 로고!*/
+    width : 100%;
+    height: 100px;
+    background-color: rgb(50, 119, 168);
+    line-height: 100px;
+    text-align: center;
+}
+header h1{
+font-family: 'Hammersmith One', sans-serif;
+font-weight: 700;
+font-size: 70px;
+color: #fff;
+text-shadow: 0 -1px 0 #222;
+}
+
+
+#navigation{                    /*두번째줄 전체 "nav"+ "이미지 슬라이드쇼"*/
+    width : 100%;
+    height : 500px;
+}
+
+nav{                            /*nav*/
+    width: 200px;
+    height: 500px;
+    display: inline-block;
+}
+nav ul{
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    font-size:40px;
+    text-align:left;
+    margin: 10px 0;
+}
+nav ul li a span{
+    margin: 0 auto;
+    width: 10px;
+    height: 20px;
+    line-height: 200px;
+}
+nav ul li a p{
+    color:rgb(43, 174, 226);
+}
+nav ul li a p:hover{
+    color: #f00;
+}
+#slideShow{                     /*이미지 슬라이드쇼*/
+    width: 1000px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+}
+#slides{
+    position: absolute;
+}
+#slides > img{
+    width: auto;
+    height: 500px;
+    position:center;
+}
+button{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 800;
+    font-size: 24px;
+    opacity: 0.5;
+}
+#prev{
+    left:0;
+}
+#next{
+    right:0;
+}
+button:hover{
+    background-color: #222;
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer
+}
+button:focus{
+    outline: 0;
+}
+
+#contents{                          /*세번쨰줄 "자기소개" + " 퀵링크"*/
+    width:100%;
+    height:200px;
+    margin-top:15px;
+
+}
+#introduction{
+    float:left;
+    width: 200px;
+    height: 100%;
+    
+    
+}
+#links{
+    float:right;
+    width: 1000px;
+    height: 100%;
+    margin-top: 1px;
+    
+}
+#links ul{
+    padding: 0;
+    padding-left:100px;
+    overflow: hidden;
+}
+#links ul li {
+    float:left;
+    width:33%;
+    text-align:center;
+    margin: 0.5px 0;
+}
+#links ul li{
+    list-style-type: none;
+}
+#links ul li a span{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    line-height: 200px;
+    
+}
+#quick-icon1{
+    position: absolute;
+    background-image:url("웹홈 images/instagram.jpeg");
+    background-size: 165px 158px;
+    background-position-x: center;
+    
+}
+#quick-icon2{
+    position: absolute;
+    background-image: url("웹홈 images/facebook.png");
+    background-size: 170px 158px;
+    background-position-x: center;
+}
+#quick-icon3{
+    position: absolute;
+    background-image: url("웹홈 images/github.png");
+    background-size: 300px 158px;
+    background-position-x: center;
+}
+
+#links ul li a p{
+    margin-top: 155px;
+    margin-right:150px;
+    font-weight: 600;
+    color: #666;
+}
+footer{
+    width:100%;
+    height:100px;
+    border-top : 1px solid #222;
+}
+#private{
+    width: 100%;
+    height: 20px;
+}
+#private ul{
+    margin-top: 10px;
+}
+#private ul li{
+    list-style:none;
+    padding: 5px 20px;
+    border-right: 1px solid #ddd;
+}
+#private ul li p{
+    font-size: 15px;
+    color: #666;
+}

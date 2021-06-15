@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seokjea Kwon</title>
+    <link rel ="stylesheet" href ="웹홈.css">
+</head>
+<body>
+    <div id = "container">          
+        <header>                           <!--첫번쨰줄 "로고"만 -->
+            <div id ="logo">
+                <a href="index.html">
+                    <h1>SEOK JEA KWON</h1>
+                </a>
+                
+            </div>
+        </header>
+        <div id ="navigation">             <!--두번쨰줄 "nav"+"이미지 슬라이드쇼"-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="coding.html">
+                            <span id ="nav1"></span>
+                            <p>1.Coding</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="photo.html">
+                            <span id ="nav2"></span>
+                            <p>2.Photo</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://your.gg/kr/profile/Hyeonju%20a">
+                            <span id ="nav3"></span>
+                            <p>3.LOL</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id = "slideShow">
+                <div id="slides">
+                    <img src = "웹홈 images/사진1.jpg" alt="">
+                    <img src = "웹홈 images/사진2.jpg" alt="">
+                    <img src = "웹홈 images/사진3.jpg" alt="">
+                    <button id ="prev">&lang;</button>
+                    <button id ="next">&rang;</button>
+                </div>
+            </div>
+        </div>                           
+        <div id = "contents">              <!--세번쨰줄 "자기소개" + " 퀵링크"-->
+            <div id ="introduction">
+                    <h1><br></h1>
+                    <h2>강원대학교 </h2>   
+                    <h2>컴퓨터공학과 </h2>
+                    <p>생일: 01년생 2월 18일</p>
+                    <p>취미: 코딩과 게임을 좋아함</p>
+            </div>
+            <div id ="links">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/seock.jae">
+                            <span id ="quick-icon1"></span>
+                            <p>instagram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://m.facebook.com/profile.php?ref=bookmarks">
+                            <span id ="quick-icon2"></span>
+                            <p>facebook</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/seokjea">
+                            <span id ="quick-icon3"></span>
+                            <p>git-hub</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>                           <!--네번쨰줄 "footer"-->
+            <div id="private">
+                <ul>
+                    <li><p>주소: 석사동 현대 3차 아파트</p></li>
+                    <li><p>이메일: tjrwo218@naver.com</p></li>
+                    <li><p>전화번호: 010-8817-0771</p></li>
+                </ul>
+            </div>
+        </footer>
+    </div>  
+    <script src="웹홈.js/slideshow.js"></script>
+</body>
+</html>

@@ -36,6 +36,9 @@ header{                         /*첫번쨰줄 헤더부분 로고!*/
 }
 #quick-icon1{
     background-image:url("웹홈 images/photo-1.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 300px 300px;
 }
 #quick-icon2{
     background-image: url("웹홈 images/photo-2.jpg");
